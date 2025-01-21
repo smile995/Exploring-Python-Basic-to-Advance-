@@ -1,7 +1,9 @@
 # variable naming style (snake_case, camelCase, PascalCase)
 # Variables are case sensitive
+# print string like below
+# print("Hello World")
 
-# Declaring number as variable
+# Declaring number as variable and printing variable
 x=10
 y=454
 z=234
@@ -17,11 +19,15 @@ universityName='CCN university of science and technology'
 department= "CSE"
 # print(name, universityName,department)
 
+# Daclaring array as variable
+x = ["apple", "banana", "cherry"]		
+x = ("apple", "banana", "cherry")
+print(x,y)
 # Declaring bolean that store true or false only
 isStudent=True
 married= False
 # print(isStudent,married)
-
+complexNumber = 1j
 # Assign multiple variable
 x,y,z= "Amir","Hamza","Ismail"
 print(x)
