@@ -45,9 +45,15 @@ fullNameWithGap=firstName+ " "+ middleName+" "+lastName #result --> Amir Hamza I
 # String Format (How to join a string with variable dynamically)
 age = 36
 txt = f"My name is John, I am {age} year old"
-print(txt)
+# print(txt)
 
 price= 345
 manualjoin= f"You have to pay {price:.3f}" #price will be 345.000 (3f means take 3 decimal pint)
 
 # print(manualjoin)
+# string methods
+exploreString= "Try to explore string methods"
+capital=exploreString.capitalize()
+small= exploreString.casefold()
+totalLetter= exploreString.count("e")
+print(totalLetter)
