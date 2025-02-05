@@ -34,4 +34,16 @@ for movie in movies:
     if "r" in movie:
         newList.append(movie)
 
-print(newList)
+# print(newList)
+numbers=[3,43,534,545,435,34,5,45,5,345,4,54,5,5,4]
+numbers.sort() #sorting in ascending order
+# print("sorting in accending order",numbers)
+numbers.sort(reverse=True)  #sorting in decending order
+# print("sorting in decending order",numbers)
+mainArray=["Shanto","Badaima", "Saim","Majnu","Anamul","Pera"]
+copyArray= mainArray[:] #medhod-1: to copy an array
+copyArray= mainArray[:]#method-2: to copy an array
+# print(copyArray)
+
+joinArray= movies+mainArray #Way to join array
+print(joinArray)
