@@ -19,11 +19,19 @@ fruits.pop(2) #remove by index. apple will be remove
 
 # deleting property completely from list
 thislist = ["apple", "banana", "cherry"]
-del thislist[1]
 print(thislist.clear()) #clear() make empty a list 
 
-for fruit in fruits:
-    print(fruit)
+# for fruit in fruits:
+#     print(fruit)
 
-for fruit in range(len(fruits)):
-    print(fruit)
+# for fruit in range(len(fruits)):
+#     print(fruit)
+
+
+movies= ["Vemon","Spiderman", "Ironman","Driver"]
+newList=[]
+for movie in movies:
+    if "r" in movie:
+        newList.append(movie)
+
+print(newList)
