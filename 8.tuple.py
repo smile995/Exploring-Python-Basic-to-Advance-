@@ -17,3 +17,25 @@ convertToList.append(32)
 convertToList.remove(1)
 # again convert the list into tuple
 AgainTuple2=tuple(convertToList)
+
+
+# unpacked tuple : similer to destructure in javascript
+fruits = ("apple", "banana", "cherry")
+(red, *yellow) = fruits
+print(red)
+print(yellow)
+
+
+# looping on tuple--> method-1: access the element by index
+for fav in range(len(fruits)):
+    print(fruits[fav])
+# looping on tuple--> method-2: access the element list property
+for fruit in fruits:
+    print(fruit)
+    
+# how to join tuple
+letter = ("a", "b" , "c")
+number = (1, 2, 3)
+
+tupleJoin = letter + number #('a', 'b', 'c', 1, 2, 3)
+print(fruits*3)
