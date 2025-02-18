@@ -25,3 +25,50 @@ b = 5
 if a > 5:
     if b < 10:
         print("a is greater than 5 and b is less than 10")
+# use all logical conditions like below
+# Equals
+a = 10
+b = 20
+if a == b:
+    print("a is equal to b")
+else:
+    print("a is not equal to b")
+
+# Not Equals
+if a != b:
+    print("a is not equal to b")
+else:
+    print("a is equal to b")
+
+# Less than
+if a < b:
+    print("a is less than b")
+else:
+    print("a is not less than b")
+
+# Less than or equal to
+if a <= b:
+    print("a is less than or equal to b")
+else:
+    print("a is greater than b")
+
+# Greater than
+if a > b:
+    print("a is greater than b")
+else:
+    print("a is not greater than b")
+
+# Greater than or equal to
+if a >= b:
+    print("a is greater than or equal to b")
+else:
+    print("a is less than b")
+
+
+
+age=25
+# Ternary operators examples
+name= "Amir Hamza ISmail" if age<30 else "Omar Faruk"
+isEvenOrFalse= "Even" if age%2==0 else "Odd"
+isAdult="Adult" if age>18 else "You are not Adult"
+print(isAdult)
