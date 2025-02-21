@@ -14,3 +14,6 @@ for letter in name:
         print("break")
         break
         
+# how to use  range (initial value, end value, increment value)
+for number in range(15):
+    print(number)
