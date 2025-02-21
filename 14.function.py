@@ -31,3 +31,12 @@ def sum_calculator(*number):
      print(sum)
 
 # sum_calculator(2,3,4,4,5,6,7,8,8,99)
+x= int(input())
+if (x>90):
+    print("A")
+elif (x>70):
+    print("B")
+elif (x>40):
+    print("C")
+else:
+    print("F")
