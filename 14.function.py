@@ -30,13 +30,27 @@ def sum_calculator(*number):
           sum=sum+x
      print(sum)
 
-# sum_calculator(2,3,4,4,5,6,7,8,8,99)
-x= int(input())
-if (x>90):
-    print("A")
-elif (x>70):
-    print("B")
-elif (x>40):
-    print("C")
-else:
-    print("F")
+# sum_calculator(2,3,4,4,5,6,7,8,8)
+# _____________________________________________
+# Recursion is a common mathematical and programming concept. It means that a function calls itself. 
+# This has the benefit of meaning that you can loop through data to reach a result.
+
+def tri_recursion(k):
+  if(k > 0):
+    result = k + tri_recursion(k - 1)
+    print("calling itself")
+    print(result)
+  else:
+    result = 0
+  return result
+
+print("Recursion Example Results:")
+# tri_recursion(6)
+
+
+def factorial(n):
+    if n == 0 or n == 1:  # Base case
+        return 1
+    return n * factorial(n - 1)  # Recursive case
+
+print(factorial(8))  # Output: 120
